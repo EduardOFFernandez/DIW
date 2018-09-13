@@ -1,0 +1,53 @@
+
+body{
+background: #d89e00;
+}
+
+.cabecera{
+
+background: rgba(45,62,78,1);
+background: -moz-linear-gradient(left, rgba(45,62,78,1) 0%, rgba(45,62,78,1) 8%, rgba(141,127,30,1) 67%, rgba(195,163,3,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(45,62,78,1)), color-stop(8%, rgba(45,62,78,1)), color-stop(67%, rgba(141,127,30,1)), color-stop(100%, rgba(195,163,3,1)));
+background: -webkit-linear-gradient(left, rgba(45,62,78,1) 0%, rgba(45,62,78,1) 8%, rgba(141,127,30,1) 67%, rgba(195,163,3,1) 100%);
+background: -o-linear-gradient(left, rgba(45,62,78,1) 0%, rgba(45,62,78,1) 8%, rgba(141,127,30,1) 67%, rgba(195,163,3,1) 100%);
+background: -ms-linear-gradient(left, rgba(45,62,78,1) 0%, rgba(45,62,78,1) 8%, rgba(141,127,30,1) 67%, rgba(195,163,3,1) 100%);
+background: linear-gradient(to right, rgba(45,62,78,1) 0%, rgba(45,62,78,1) 8%, rgba(141,127,30,1) 67%, rgba(195,163,3,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d3e4e', endColorstr='#c3a303', GradientType=1 );
+}
+
+.cabecera h1{
+color: #d6a40d;
+}
+
+.cabecera p{
+color: #cfc7b4
+}
+
+.cabecera p b{
+color: #ab100b
+}
+
+.cuerpo{
+background: rgba(207,141,1,1);
+background: -moz-linear-gradient(left, rgba(207,141,1,1) 0%, rgba(207,141,1,1) 55%, rgba(63,78,133,1) 58%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(207,141,1,1)), color-stop(55%, rgba(207,141,1,1)), color-stop(58%, rgba(63,78,133,1)));
+background: -webkit-linear-gradient(left, rgba(207,141,1,1) 0%, rgba(207,141,1,1) 55%, rgba(63,78,133,1) 58%);
+background: -o-linear-gradient(left, rgba(207,141,1,1) 0%, rgba(207,141,1,1) 55%, rgba(63,78,133,1) 58%);
+background: -ms-linear-gradient(left, rgba(207,141,1,1) 0%, rgba(207,141,1,1) 55%, rgba(63,78,133,1) 58%);
+background: linear-gradient(to right, rgba(207,141,1,1) 0%, rgba(207,141,1,1) 55%, rgba(63,78,133,1) 58%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf8d01', endColorstr='#3f4e85', GradientType=1 );
+}
+
+.cuerpo h2{
+color: #a50f11	
+}
+
+.cuerpo ul{
+color: #5f224c
+}
+
+.tabla{
+background-url: http://api.thumbr.it/whitenoise-361x370.png?background=#6d8869ff&noise=626262&density=20&opacity=63 
+}
+
+
