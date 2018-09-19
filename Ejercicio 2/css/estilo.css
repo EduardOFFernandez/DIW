@@ -1,0 +1,26 @@
+#cuerpo {
+    border: 1px solid black;
+   width: 300px;
+   height: auto;
+}
+
+h1{
+    background-color: #69A0F3;
+    color: white;
+    font-size: 24px;
+}
+
+th{
+    vertical-align: top;
+    text-align: left;
+}
+
+ul{
+    list-style: none;
+}
+
+h2{
+    background-color: #69A0F3;
+    color: white;
+    font-size: 16px;
+}
