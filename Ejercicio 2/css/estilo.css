@@ -1,13 +1,15 @@
 #cuerpo {
     border: 1px solid black;
-   width: 300px;
+   width: 350px;
    height: auto;
+   font-family: sans-serif;
 }
 
 h1{
     background-color: #69A0F3;
     color: white;
     font-size: 24px;
+    
 }
 
 th{
