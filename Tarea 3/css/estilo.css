@@ -1,0 +1,29 @@
+#central{
+    text-align: left;
+    height: auto;
+    width: 225px;
+
+}
+
+h1{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2455c3;
+}
+
+.cabecera{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+table{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+td{
+    border-top: dotted; border-width: 1px;
+   
+}
