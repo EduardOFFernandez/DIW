@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 #cuerpo{
     text-align: center;
+    font-family: 'Fjalla One', sans-serif;
 }
-.marcador{
+
+.marcador-local{
     font-size: 50px;
+}
+
+.marcador-visitante{
+    font-size: 50px;
+    border-left: 1px solid lightgrey;
 }
 
 #equipo-local{
    padding-bottom: 25px;
-}
-
-#escudo-local{
-  
 }
 
 #equipo-visitante{
@@ -32,4 +36,12 @@
 
 #abajo table{
     margin-top: 10px;
+}
+
+.goleadores{
+    font-size: 70%;
+}
+
+#vivo:hover{
+    color: orange;
 }
