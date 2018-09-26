@@ -1,0 +1,52 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(241, 241, 241);
+}
+
+p{
+    margin-top: 50px;
+}
+
+img{
+
+    width: 40%;
+    height: 40%;
+
+
+}
+
+h1{
+   font-size: 25px;
+    font-weight: normal;
+    color: rgb(87, 87, 87);
+}
+
+.top{
+    text-align: left;
+    width: 1100px;
+}
+
+.top img{
+    float: left;
+    margin-right: 30px;
+}
+
+.top p{
+    line-height: 2em;
+}
+
+.bot{
+    margin-top: 200px;
+    clear: left;
+    width: 1100px;
+   
+
+}
+
+.bot img{
+
+    float: right;
+    
+
+}
