@@ -1,0 +1,51 @@
+
+nav ul li{
+    display:inline;
+    
+}
+
+nav ul{
+    
+    list-style-type: none;
+    padding: 10%;
+
+}
+
+
+nav ul li img{
+    width: 64px;
+    height:64px;
+    padding: 10px;
+    position: relative;	
+    transition:all .5s ease;
+}
+
+nav ul li img:hover{
+    transform:scale(1.25);
+}
+
+nav{
+    margin-left: 25%;
+    margin-top: 10%;
+    height: 50%; 
+    
+    
+}
+
+nav ul li span{    
+    visibility: hidden;
+    position: absolute;
+    text-align: center;
+    padding-top: 100px;
+    text-align: center;
+    
+    
+}
+
+nav ul li:hover span{
+    
+    visibility: visible;
+}
+
+
+

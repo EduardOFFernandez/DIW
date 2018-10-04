@@ -1,0 +1,30 @@
+.botonGradiente1{
+
+    border: 1px solid black;
+    padding: 5px;
+    background-color: red;
+    color:white;
+    text-decoration: none;
+
+}
+
+.botonGradiente2{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 1px solid black;
+    padding: 5px;
+    background:linear-gradient(55deg, blue 45%,red, yellow 55%);
+    color:white;
+    text-decoration: none;
+
+}
+
+.botonGradiente3{
+    
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+    background: repeating-linear-gradient(-45deg, #ccc 0%, black 5%,#ccc 10% );
+    color: white;
+
+}
