@@ -1,0 +1,33 @@
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Ejercicio Formulario</title>
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<div class="cajaPrincipal">
+<form>
+<legend>Inica sesión</legend>
+<div class="elemento">
+    <label for="email">Email</label>
+    <input id="email" name="email" autofocus="true" placeholder="sucorreo@correo.org" type="email" />
+</div>
+
+<div class="elemento">
+    <label for="Password">Password</label>
+    <input id="password" name="password" placeholder="********" pattern="[0-9A-Za-z]{8,}" minlength="8" type="password" />
+</div>
+<div class="elemento">
+    <label for="description">Descripción</label>
+    <textarea id="descripcion" name="descripcion" placeholder="Cuentame algo" pattern="[a-zA-Z0-9]{8,255}"></textarea>
+</div>
+<div class="button">
+<input type="submit">
+</div>
+</form>
+</div>
+
+</html>

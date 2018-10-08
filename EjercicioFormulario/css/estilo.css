@@ -1,0 +1,29 @@
+.cajaPrincipal{
+
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 600px;
+    height: 200px;
+    
+}
+
+.elemento {
+    margin: .4em 0;
+  }
+
+.elemento label {
+    width: 25%;
+    float: left;
+    transition:all .5s ease;
+}
+
+.button{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.elemento label:hover{
+
+    transform:scale(1.25);
+
+}
