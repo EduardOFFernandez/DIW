@@ -1,0 +1,57 @@
+form{
+
+    margin-top: 5%;
+
+}
+
+
+.elemento{
+    margin: .4em 0;
+    padding-left: 25px;
+}
+
+.elemento label{
+    width: 25%;
+    float: left;
+}
+
+.elemento input{
+    
+    width: 50%;
+}
+
+.izquierda{
+
+   
+    width: 50%;
+    height: 30%;
+    float: left;
+    
+
+}
+
+.derecha{
+    width: 50%;
+    height: 30%;
+    float: right;
+   
+
+}
+
+.center{
+   margin-left: 10%;
+    width: 75%; 
+ 
+}
+
+.checkbox{
+
+    margin-top: 10px;
+
+}
+
+
+
+
+  
+  
