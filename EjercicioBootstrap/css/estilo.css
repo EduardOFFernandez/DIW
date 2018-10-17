@@ -1,3 +1,8 @@
+#principal{
+
+    width: 99%;
+    margin-left: 25px;
+}
 form{
 
     margin-top: 5%;
@@ -6,8 +11,10 @@ form{
 
 
 .elemento{
+   
     margin: .4em 0;
-    padding-left: 25px;
+    padding-left: 150px;
+    
 }
 
 .elemento label{
@@ -16,24 +23,27 @@ form{
 }
 
 .elemento input{
-    
+
     width: 50%;
 }
 
 .izquierda{
 
-   
-    width: 50%;
+    
+    width: 45%;
     height: 30%;
     float: left;
+    
     
 
 }
 
 .derecha{
-    width: 50%;
+   
+    width: 45%;
     height: 30%;
     float: right;
+    margin-right:155px;
    
 
 }
@@ -47,6 +57,41 @@ form{
 .checkbox{
 
     margin-top: 10px;
+
+}
+
+#tasques{
+    margin-top: 10px;
+    width: 1000px;
+
+}
+
+.top{
+    margin-top: 3%;
+
+}
+
+
+#logo{
+
+    margin-left: 7%;
+
+}
+
+.titulo{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.button{
+    margin-top: 25px;
+}
+
+.radiobutton{
+
+    margin-top: 25px;
 
 }
 
