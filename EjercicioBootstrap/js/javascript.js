@@ -19,3 +19,10 @@ $(document).ready(function() {
         }
     });
 });
+
+
+function marcarLeve(){
+
+    document.getElementById("leve").checked = 1;
+
+}

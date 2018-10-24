@@ -95,7 +95,25 @@ form{
 
 }
 
+#seleccionGrave{
 
+
+    display: none;
+
+}
+
+.tipificacio{
+    margin-top: 1%;
+    overflow: auto;
+    width: auto;
+    max-height: 300px;
+}
+
+.tipificacio input{
+
+    margin-top: 1%;
+
+}
 
 
   
