@@ -1,0 +1,15 @@
+{
+  "name": "partes",
+  "version": "1.0.0",
+  "description": "formulario que envia datos de los partes de los alumnos",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dios supremo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.8"
+  }
+}
