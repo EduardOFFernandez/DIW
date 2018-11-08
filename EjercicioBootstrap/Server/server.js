@@ -36,8 +36,8 @@ app.get('/',(req,res)=>{
 });
 
 // Require parte routes
-require('./app/routes/parteLeve.routes.js')(app);
-//require('./app/routes/parteGrave.routes.js')(app);
+require('./app/routes/partes.routes.js')(app);
+
 
 
 // Escuchemos en un puerto

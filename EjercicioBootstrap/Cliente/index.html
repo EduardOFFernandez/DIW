@@ -21,7 +21,7 @@
     <img id="logo" src="img/lasenia.png" alt="">
 
     <h1 class="titulo">COMUNICACIÓ DE MESURES CORRECTORES</h1>
-    <form class="form1" method="POST" action="http://localhost:3000/parteLeve">
+    <form class="form1" method="POST" action="http://localhost:3000/parte">
 
         <div class="izquierda">
         <div class="elemento">
@@ -70,8 +70,8 @@
         <textarea name="descripcionIncidente" id="descripcio" cols="123" rows="5"></textarea><br>
         
 
-        <input class="radiobutton" id="leve" type="radio" name="importancia" checked="checked" value="leve" > Leve
-        <input class="radiobutton" id="grave" type="radio" name="importancia" value="grave"> Grave<br>
+        <input class="radiobutton" id="leve" type="radio" name="importancia" checked="checked"  onclick="radioButtonLeve()" > Leve
+        <input class="radiobutton" id="grave" type="radio" name="importancia" onclick="radioButtonGrave()"> Grave<br>
         
         <div id="seleccionLeve">
         <p class="top">En aplicació de l'article 37 del decret 39/08 sobre els drets i deures, es comunica al pare/mare de l'alumne la imposició de la següent mesura correctora: </p>

@@ -1,15 +1,31 @@
 const mongoose= require('mongoose');
 
-const IncidenciaGraveSchema = mongoose.Schema({
+const IncidenciasSchema = mongoose.Schema({
     nombreAlumno:String,
     grupoAlumno:String,
     profesor:String,
     horaAtencion:Date,
     fecha:Date,
     hora:Date,
-    lugar:Date,
+    lugar:String,
     descripcionIncidente:String,
     importancia:String,
+    leve:String,
+    grave:String,
+    a:String,
+    b:String,
+    c:String,
+    diasD:Number,
+    d:String,
+    e:String,
+    tareas:String,
+    dia:String,
+    f:String,
+    horari:Date,
+    f:String,
+    dias:Date,
+    dias2:Date,
+    g:String,
     aTipificacio:String,
     bTipificacio:String,
     cTipificacio:String,
@@ -27,10 +43,9 @@ const IncidenciaGraveSchema = mongoose.Schema({
     oTipificacio:String,
     pTipificacio:String,
     
-    
 },{
     timestamps:true
 });
 
 
-module.exports = mongoose.model('parteGrave',IncidenciaGraveSchema);
+module.exports = mongoose.model('partes',IncidenciasSchema);
