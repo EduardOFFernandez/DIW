@@ -81,6 +81,8 @@ exports.findAll = (req,res) => {
 };
 
 
+
+
 // Obtener un partes por Id
 exports.findOne = (req,res) => {
     Partes.findById(req.params.partesId)

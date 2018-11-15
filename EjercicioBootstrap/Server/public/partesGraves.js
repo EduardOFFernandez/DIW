@@ -3,7 +3,7 @@ $.getJSON( "http://localhost:3000/parte", function( data ) {
     $.each( data, function( key, val ) {
 	console.log(key);
 	if(val.grave=="grave"){
-    items.push( "<li id='" + key + "' class='list-group-item'><a href='parte/"+val._id+"' >" + val.nombreAlumno + "</a></li>" );
+    items.push( "<li id='" + key + "' class='list-group-item'><a href='detalles.html?id="+val._id+"' >" + val.nombreAlumno + "</a></li>" );
 	}
   });
  
