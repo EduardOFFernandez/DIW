@@ -8,12 +8,12 @@ module.exports = (app) => {
     app.get('/parte', parte.findAll);
 
     // Retrieve a single investigadores with parteLeveId
-    app.get('/parte/:parteId', parte.findOne);
+    app.get('/parte/:partesId', parte.findOne);
     
     // Update a investigadores with parteLeveId
-    app.put('/parte/:parteId', parte.update);
+    app.put('/parte/:partesId', parte.update);
 
     // Delete a investigadores with parteLeveId
-    app.delete('/parte/:parteId', parte.delete);
+    app.delete('/parte/:partesId', parte.delete);
 
 }

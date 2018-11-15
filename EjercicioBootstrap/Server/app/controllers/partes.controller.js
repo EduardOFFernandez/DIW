@@ -117,13 +117,12 @@ exports.update = (req, res) => {
 
     // Find note and update it with the request body
     Partes.findByIdAndUpdate(req.params.partesId, {
-        nombre: req.body.nombre|| 'Sin nombre',
-        grup: req.body.grup || 'Sin grupo',
-        professor: req.body.professor || 'Sin profesor',
-        atencio: req.body.atencio || 'Sin atencion',
-        incident: req.body.incident || 'Sin incidente',
-        horari: req.body.horari || 'Sin horario',
-        lloc: req.body.lloc || 'Sin lugar'
+        nombreAlumno: req.body.nombreAlumno || "Sin Nombre",
+        grupoAlumno: req.body.grupoAlumno || "Sin Grupo",
+        profesor: req.body.profesor || "Sin Profesor",
+        lugar: req.body.lugar || "Sin Lugar",
+        descripcionIncidente: req.body.descripcionIncidente || "Sin Descripción del Incidente",
+        horaAtencion: req.body.horaAtencion,
         
     }, {new: true})
     .then(partes => {
