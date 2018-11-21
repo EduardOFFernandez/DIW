@@ -1,0 +1,40 @@
+button{
+    background-color: #f44336;
+    color: white;
+}
+button:hover{
+
+    background-color: white;
+    color: #f44336;
+
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vertical-menu ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #992b20;
+}
+
+.vertical-menu li {
+    float: left;
+}
+
+.vertical-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.vertical-menu li a:hover {
+    background-color: #5c0116;
+}
+
