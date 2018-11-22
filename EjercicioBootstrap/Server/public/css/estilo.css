@@ -3,12 +3,16 @@
 }
 
 .vertical-menu ul {
-    
+    position: fixed;
+    width: 100%;
+    top: 0px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #992b20;
+    background-color: white;
+    border: 2px solid #992b20;
+    z-index: 20;
 }
 
 .vertical-menu li {
@@ -17,14 +21,24 @@
 
 .vertical-menu li a {
     display: block;
-    color: white;
+    color: #992b20;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .vertical-menu li a:hover {
-    background-color: #5c0116;
+    background-color: #992b20;
+    color: white;
+}
+
+.vertical-menu img{
+
+    width: 107.5px;
+    height: 41.75px;
+    float: right;
+    margin-right: 10px;
+
 }
 
 #principal{
