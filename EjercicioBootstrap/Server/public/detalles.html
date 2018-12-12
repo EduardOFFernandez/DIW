@@ -1,46 +1,57 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/detalles.css" type="text/css">
-<script
-	src="https://code.jquery.com/jquery-3.3.1.min.js"
-	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-	crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-<script src="detalles.js"></script>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <body>
-      <div class="vertical-menu">
-          <ul>
-            <li><a href="menu.html">INICIO</a></li>
-            <li><a href="listarGraves.html">LISTA INCIDENCIAS GRAVES</a></li>
-            <li><a href="listarLeves.html">LISTA INCIDENCIAS LEVES</a></li>
-            <li><a href="index.html">CREAR INCIDENCIA</a></li>
-            <img id="logo" src="img/lasenia.png" alt="">
-          </ul>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/listaIncidencias.css" type="text/css">
+  <script src="js/menu.js"></script>
+  <script src="js/detalles.js"></script>
+</head>
+
+<body>
+  <nav class="vertical-menu">
+    <ul id="verticalMenu">
+      <a href="javascript:history.go(-1)">
+        <li><img id="btnAtras" src="/img/boton-atras.png" alt="">
+      </li></a>
+      <li><a href="menu.html">INICIO</a></li>
+      <li><a href="listarGraves.html">LISTA INCIDENCIAS GRAVES</a></li>
+      <li><a href="listarLeves.html">LISTA INCIDENCIAS LEVES</a></li>
+      <li><a href="index.html">CREAR INCIDENCIA</a></li>
+      <img id="logo" src="img/lasenia.png" alt="">
+    </ul>
+  </nav>
+  <a class="menuMovil" id="menu" href="#">
+    <span class="menu-item"></span>
+    <span class="menu-item"></span>
+    <span class="menu-item"></span>
+  </a>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h2 class="display-4">Alumno</h2>
+      <p class="lead">Detalles de la incidencia del alumno</p>
+
+
+      <div class="container-fluid">
+        <div id="divLista">
+
         </div>
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-	<h1 class="display-4">Alumno</h1>
-	<p class="lead">Detalles de la incidencia del alumno</p>
-    
-    
-	<div class="container-fluid">
-	  <div id="divLista">
 
-	    </div>
-      
-      <a  id="mingui" onclick="eliminarParte(), cambiarPag()"><button>ELIMINAR</button></a>
+        <a id="mingui" onclick="eliminarParte(), cambiarPag()"><button>ELIMINAR</button></a>
       </div>
 
-     
-    </body>
+
+</body>
+
 </html>

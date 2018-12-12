@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="css/listaIncidencias.css" type="text/css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -31,10 +32,10 @@
         </ul>
     </div>
     <div id="principal">
-        
 
-        <h1 class="titulo">COMUNICACIÓ DE MESURES CORRECTORES</h1>
-        <form class="form1" method="POST" action="http://localhost:3000/parte">
+
+        <h2 class="titulo">COMUNICACIÓ DE MESURES CORRECTORES</h2>
+        <form cl-ass="form1" method="POST" action="parte">
 
             <div class="izquierda">
                 <div class="elemento">
@@ -126,10 +127,10 @@
                     <input name="g" type="checkbox" class="checkbox"> Suspenció del dret de l'assistència a les classes
                     de <input id="dies" type="text"> <label>des de </label> <input name="dias3" id="dies" type="date">
                     <label> fins a </label> <input name="dias4" id="dies" type="date"> <br>
-                    <label id="tipificacio"> Tipificació de l'incident segons l'article 35: </label><br>
+                    
 
                     <div class="tipificacio">
-
+                        <label id="tipificacio"> <b>Tipificació de l'incident segons l'article 35:</b> </label><br>
                         <input name="aTipificacio" type="checkbox" class="checkbox"> Les faltes de puntualitat
                         injustificades.<br>
                         <input name="bTipificacio" type="checkbox" class="checkbox"> Les faltes de assistència
@@ -177,9 +178,9 @@
 
 
                 <div id="seleccionGrave">
-                    <label id="tipificacio2"> Tipificació de l'incident segons l'article 42: </label><br>
+                    
                     <div class="tipificacio">
-
+                        <label id="tipificacio2"> <b>Tipificació de l'incident segons l'article 42: </b></label><br>
                         <input name="aTipificacio" type="checkbox" class="checkbox"> Els actes greus d'indisciplina i
                         les injúries i ofenses contra membres de la comunitat educativa que sobrepassen la incorreció o
                         la desconsideració previstes en el article 35.<br>
@@ -224,7 +225,7 @@
                     </div>
 
                 </div>
-                <a href="localhost:3000/menu.html"><input id="boton" class="button" type="submit" value="Enviar Formulario"></a>
+                <a href="menu.html"><input id="boton" class="button" type="submit" value="Enviar Formulario"></a>
             </div>
 
 

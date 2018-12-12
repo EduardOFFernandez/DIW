@@ -1,4 +1,4 @@
-$.getJSON( "http://localhost:3000/parte", function( data ) {
+$.getJSON( "parte", function( data ) {
   var items = [];
     $.each( data, function( key, val ) {
 	console.log(key);

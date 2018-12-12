@@ -1,11 +1,55 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.jumbotron{
+    
+    background-color: white;
+}
+
+.container{
+    margin-top: 100px;
+}
+
+h2{
+    color: #992b20;
+}
+
+button{
+    background-color: red;
+    color: white;
+}
+
+#divLista li{
+    background-color: #ffcccc ;
+    color: black;
+    border: 1px solid white;
+}
+
+#verticalMenu li img{
+
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+
+}
+
+@media only screen
+and (min-width : 500px) {
+ /* Styles */
+
+ #btnAtras{
+
+    display: none;
 }
 
 .vertical-menu ul {
     position: fixed;
     width: 100%;
     top: 0px;
+    left: 0px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,6 +61,7 @@
 
 .vertical-menu li {
     float: left;
+    margin-left: 1px;
 }
 
 .vertical-menu li a {
@@ -30,13 +75,162 @@
 .vertical-menu li a:hover {
     background-color: #992b20;
     color: white;
+    
 }
 
-.vertical-menu img{
+#logo{
+
+    display: none;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 0 0 #992b20, -2px 0 0 #992b20, 0 2px 0 #992b20, 0 -2px 0 #992b20, 1px 1px #992b20, -1px -1px 0 #992b20, 1px -1px 0 #992b20, -1px 1px 0 #992b20;
+}   
+}
+
+
+
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+
+#btnAtras{
+
+    display: inline;
+}
+
+.vertical-menu ul {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border: 2px solid #992b20;
+    z-index: 20;
+}
+
+.vertical-menu li {
+    float: left;
+    margin-left: 100px;
+}
+
+.vertical-menu li a {
+    display: block;
+    color: #992b20;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.vertical-menu li a:hover {
+    background-color: #992b20;
+    color: white;
+    
+}
+
+#logo{
 
     width: 107.5px;
     height: 41.75px;
     float: right;
-    margin-right: 10px;
+    margin-right: 25px;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 0 0 #992b20, -2px 0 0 #992b20, 0 2px 0 #992b20, 0 -2px 0 #992b20, 1px 1px #992b20, -1px -1px 0 #992b20, 1px -1px 0 #992b20, -1px 1px 0 #992b20;
+}
+}
+
+@media only screen
+and (min-device-width : 360px)
+and (max-device-width : 500px) {
+/* Styles */
+.vertical-menu ul {
+    position: fixed;
+    display: none;
+    width: 80%;
+    top: 100px;
+    left: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border: 2px solid #992b20;
+    z-index: 20;
+}
+
+.vertical-menu li {
+    text-align: left;
+    float: left;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.vertical-menu li a {
+    display: block;
+    color: #992b20;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.vertical-menu li a:hover {
+    background-color: #992b20;
+    color: white;
+    
+}
+
+#logo{
+
+    width: 107.5px;
+    height: 41.75px;
+    float: right;
+    margin-right: 25px;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 0 0 #992b20, -2px 0 0 #992b20, 0 2px 0 #992b20, 0 -2px 0 #992b20, 1px 1px #992b20, -1px -1px 0 #992b20, 1px -1px 0 #992b20, -1px 1px 0 #992b20;
+}
+
+.menuMovil {
+    position: fixed;
+    display: inline-block;
+    padding: 35px 25px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    z-index: 20;
+  }
+  .menuMovil {
+    cursor: pointer;
+  }
+  .menuMovil .menu-item {
+    background: #992b20;
+    display: block;
+    height: 3px;
+    margin: 0 0 10px;
+    transition: all 0.3s ease-in-out;
+    width: 40px;
+  }
+
+
+
+  
 
 }
