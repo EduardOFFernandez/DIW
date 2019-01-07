@@ -137,7 +137,7 @@ and (min-width : 1224px) {
 }
 
 #logo{
-
+    display: block;
     width: 107.5px;
     height: 41.75px;
     float: right;
