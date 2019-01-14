@@ -36,6 +36,16 @@ button{
 
 }
 
+#divLista li img{
+    height: 25px;
+    width: 25px;
+}
+
+#divLista li span{
+    float: right;
+}
+
+
 @media only screen
 and (min-width : 500px) {
  /* Styles */

@@ -4,7 +4,7 @@ $.getJSON( "parte", function( data ) {
     $.each( data, function( key, val ) {
 	console.log(key);
 	if(val.leve=="leve"){
-    items.push( "<li id='" + key + "' class='list-group-item'><a href='detalles.html?id="+val._id+"' >" + val.nombreAlumno + "</a></li>" );
+    items.push( "<li id='" + key + "' class='list-group-item'><a href='detalles.html?id="+val._id+"' >" + val.nombreAlumno + "</a> <span>Editar <img src='img/editar.png'></span></li>" );
 	}
   });
  
