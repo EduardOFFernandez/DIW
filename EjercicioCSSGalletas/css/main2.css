@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One');
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+
+#container{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px 500px 210px;
+    grid-template-areas: 
+        "h h h h h h h h h h h h"
+        "m m c c c c c c c f f f"
+        "m m c c c c c c c f f f";
+}
+
+#header{
+    grid-area: h;
+    background-color: #CD5C5C;
+    font-family: 'Sigmar One', cursive;
+    text-align: center;
+    line-height: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+#contenido{
+    grid-area: c;
+}
+
+#menu{
+    grid-area: m;
+  
+}
+
+#menu button{
+    font-size: 35px;
+    height: 50%;
+    width: 100%;
+    font-family: 'Baloo', cursive;
+    color: white;
+    background-color: #FFA07A;
+
+}
+
+#footer{
+    grid-area: f;
+    background-color: #F08080;  
+}
+
+#footer img{
+    height: 150px;
+    width: 200px;
+   
+}
+
+.galleta{
+    font-family: 'Baloo', cursive;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    float: left;
+    height: 150px;
+    width: 300px;
+    text-align: center;
+}
+
+.galleta p{
+    margin-top: 25%;
+    float: right;
+}
